@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/lpi_tv_phone"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:drawableLeft="@android:drawable/ic_menu_call"
+    android:drawableStart="@android:drawable/ic_menu_call"
+    android:fontFamily="serif"
+    android:gravity="center_vertical"
+    android:text="@android:string/untitled"
+    android:textAllCaps="false"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintHorizontal_bias="0.0" />

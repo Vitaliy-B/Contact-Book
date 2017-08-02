@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "859120206020",
+    "project_id": "contact-book-e58ce"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859120206020:android:25257ebcda84a1a7",
+        "android_client_info": {
+          "package_name": "bv.dev.sannacode.contactbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859120206020-9efqkcnt5hv587fsevakdq5r25gvm0i7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "859120206020-r5kghs106ru05qis130j2j4b0d345smq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bv.dev.sannacode.contactbook",
+            "certificate_hash": "c6b1a37e5d8f18278f0778a0c329bce942eac2d5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7o8AoBB3Rgc_aOuq8IbgWDwb3SQOjhNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

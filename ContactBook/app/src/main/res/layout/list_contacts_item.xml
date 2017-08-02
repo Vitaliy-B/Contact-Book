@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lci_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    >
+
+    <ImageView
+        android:id="@+id/lci_iv_f_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@android:string/untitled"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        app:layout_constraintBottom_toBottomOf="@+id/lci_tv_f_name"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/lci_tv_f_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@android:string/untitled"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toRightOf="@+id/lci_iv_f_name"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/lci_tv_l_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@android:string/untitled"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/lci_tv_f_name"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <LinearLayout
+        android:id="@+id/lci_list_phones"
+        android:orientation="vertical"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lci_tv_f_name"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:animateLayoutChanges="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/lci_list_emails"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lci_list_phones"
+        android:animateLayoutChanges="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+</android.support.constraint.ConstraintLayout>

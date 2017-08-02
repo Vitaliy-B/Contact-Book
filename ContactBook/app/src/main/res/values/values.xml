@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- id resource type for internal use -->
+    <item type="id" name="id_key_root"/>
+    <item type="id" name="id_key_contact_id"/>
+    <item type="id" name="id_key_user_id"/>
+</resources>

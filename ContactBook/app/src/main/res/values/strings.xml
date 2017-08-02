@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Contact Book</string>
+    
+    <string name="msg_conn_fail">Connection failed</string>
+    <string name="msg_signin_fail">Sign-in failed</string>
+    <string name="msg_signin_account">Signed-in as </string>
+    <string name="msg_signin_acc_null">Sign-in account not available</string>
+    <string name="msg_resolving_err">Trying to resolve error..</string>
+    <string name="text_add_new">Add new</string>
+    <string name="text_loading">Loading..</string>
+    <string name="text_loading_failed">Loading failed</string>
+    <string name="text_nothing_to_show">Nothing to show..</string>
+    <string name="text_cant_load">Can\'t load profile image (network problem?)</string>
+    <string name="text_should_not_empty">should not be empty</string>
+    <string name="text_sort_order">Sort order</string>
+    <string name="text_sort_dir">Sort direction</string>
+    <string name="text_max_items">Max items</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_first_name">First name</string>
+    <string name="text_last_name">Last name</string>
+    <string name="text_phone_number">Phone Number</string>
+    <string name="text_email">e-mail</string>
+
+    <string-array name="ar_sort_order">
+        <item>by date</item>
+        <item>by name</item>
+    </string-array>
+
+    <string-array name="ar_sort_dir">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="ar_items_max">
+        <item> 5 </item>
+        <item> 10 </item>
+        <item> 20 </item>
+        <item> 50 </item>
+        <item> 100 </item>
+        <item> 1000 </item>
+    </string-array>
+
+</resources>

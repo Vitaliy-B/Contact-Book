@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dce_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dce_linlat_name"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/dce_et_f_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/text_first_name"
+            android:inputType="textCapWords|textPersonName"
+            android:maxLines="1"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="bold"
+            android:nextFocusForward="@+id/dce_et_l_name"
+            android:nextFocusDown="@+id/dce_et_l_name"
+            />
+
+        <EditText
+            android:id="@+id/dce_et_l_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/text_last_name"
+            android:inputType="textCapWords|textPersonName"
+            android:maxLines="1"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="bold"
+            android:nextFocusForward="@+id/dce_lv_phones"
+            android:nextFocusDown="@+id/dce_lv_phones"
+            />
+
+    </LinearLayout>
+
+    <!-- contentDescription is in use !! -->
+    <ListView
+        android:id="@+id/dce_lv_phones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:animateLayoutChanges="true"
+        android:contentDescription="@string/text_phone_number"
+        android:nextFocusForward="@+id/dce_lv_emails"
+        android:nextFocusDown="@+id/dce_lv_emails"
+        />
+
+    <!-- contentDescription is in use !! -->
+    <ListView
+        android:id="@+id/dce_lv_emails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:animateLayoutChanges="true"
+        android:contentDescription="@string/text_email" />
+
+    <TextView
+        android:id="@+id/dce_tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
